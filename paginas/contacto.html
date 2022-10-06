@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Forever - Contacto</title>
+    <link rel="shortcut icon" href="../media/favimetal.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredoka+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="fondonegro-letraroja">
+    <header>
+        <a href="../index.html">
+            <img src="../media/metalforever.jpg" alt="Logo">
+        </a>
+        <nav>
+            <ul>
+                <li class="menu__item"><a class="boton_menu" href="./hard.html">Hard Rock</a></li>
+                <li class="menu__item"><a class="boton_menu" href="./heavy.html">Heavy Metal</a></li>
+                <li class="menu__item"><a class="boton_menu" href="./thrash.html">Thrash Metal</a></li>
+                <li class="menu__item"><a class="boton header__menu--activo" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Contacto</h1>
+    </header>
+    <form action="" method="get" enctype="text/plain">
+        <fieldset class="cuadro_contacto">
+            <legend class="form__legend">Información personal</legend>
+                <div class="form__input">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Introduzca su nombre">
+                </div>
+                <div class="form__input">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" required placeholder="Introduzca su apellido">
+                </div>
+                <div class="form__input">
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="Edad" required min="18" max="200" placeholder="Introduzca su edad">
+                </div>
+                <div class="form__input">
+                    <label for="fechanac">Fecha de nacimiento</label>
+                    <input type="date" name="fechanac" id="fechanac" required min="1940-01-01" max="2050-01-01">
+                </div>
+                <div class="form__input">
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail" required>
+                </div>
+        </fieldset>
+        <fieldset class="cuadro_contacto">
+            <legend class="form__legend">¿Qué género escuchas más?</legend>
+                <div class="form__input">
+                    <label for="hard">Hard Rock</label>
+                    <input type="checkbox" name="hard" id="hard">
+                </div>
+                <div class="form__input">
+                    <label for="heavy">Heavy Metal</label>
+                    <input type="checkbox" name="heavy" id="heavy">
+                </div>
+                <div class="form__input">
+                    <label for="thrash">Thrash Metal</label>
+                    <input type="checkbox" name="thrash" id="thrash">
+                </div>
+        </fieldset>
+        <fieldset class="cuadro_contacto">
+            <legend class="form__legend">¿Escuchas alguna banda de tu país?</legend>
+            <div class="form__input">
+                <label for="si">Si</label>
+                <input type="radio" name="bandapais" id="si" value="si">
+            </div class="form__input">
+            <div class="form__input">
+                <label for="no">No</label>
+                <input type="radio" name="bandapais" id="no" value="no">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="comentario">Menciona tus bandas favoritas</label>
+            </div class="form__input">
+            <div class="form__input">
+                <textarea name="comenario" id="comentario" cols="30" rows="7"></textarea>
+            </div>
+        </fieldset>
+        <input type="reset" value="Reiniciar Formulario">
+        <input type="submit" value="Enviar Formulario">
+    </form>
+    <footer>
+        <hr>
+        <p>Página creada en curso de Coderhouse</p>
+    </footer>
+</body>
+</html>

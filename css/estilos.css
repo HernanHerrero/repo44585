@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+
+}
+.fondonegro-letraroja {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: black;
+    color: red;
+    margin: 1rem;
+}
+.encabezado{
+   /* grid-row: 1/2;*/
+    display: grid;
+    /*grid-row: auto auto;*/
+    grid-column: 1fr 1fr;
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.encabezado__logo{
+    /*grid-row: 1/2;*/
+    grid-column: 1/2;
+}
+.centrado{
+    justify-self:center;
+}
+.menu_texto{
+   /* display: flex;*/
+    grid-column: 2/3;
+    /*grid-row: 1/2;*/
+    font-family: 'Bungee Spice', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+ }
+ 
+.menu{
+    display: inline-block;
+    grid-column: 2/3;
+    /*grid-row: 2/3;*/
+}
+/*.menu__item1{
+    grid-column: 8/9;
+}
+.menu__item2{
+    grid-column: 9/10;
+}*/
+
+li.menu__item{
+   /* grid-column: 2/3;
+    grid-row: 2/3;*/
+    display: inline-block;
+}
+.boton_menu{
+    display: inline-block;
+    color: orange;
+    background-color: blueviolet;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    border-radius: 0.3rem;
+    border: 2px orange solid;
+    height: 2rem;
+    width: 8rem;
+}
+.boton_menu1{
+    grid-column: 8/12;
+    grid-row: 2/3;
+}
+.header__menu--activo{
+    display: inline-block;
+    background-color: orange;
+    color: blueviolet;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    border-radius: 0.3rem;
+    border: 2px orange solid;
+    height: 2rem;
+    width: 8rem;
+}
+.boton_ver{
+    display: inline-block;
+    color: orange;
+    background-color: blueviolet;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    border-radius: 0.3rem;
+    border: 2px orange solid;
+}
+.hero{
+    background-position: left top;
+    background-image: url("../media/cuernos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    text-align: center;
+    height: 90vh;
+    position: relative;
+}
+.hero__contenido{
+    position: absolute;
+    top: 5%;
+    left: 5rem;
+}
+.hero__titulo{
+    font-size: 4rem;
+
+}
+.hero__slogan{
+    font-size: 2.5rem;
+}
+.hero__botonhistoria{
+    font-size: 1.5rem;
+}
+h1, h2, h3{
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,50px);
+    font-size: 1rem;
+}
+.logo{
+    display: flex;
+    grid-column: 8/13;
+    grid-row: 1 / 5;
+}
+.texto_izq{
+    text-align: left;
+}
+.mas_info{
+    text-align: right;
+    margin-right: 3rem;
+}
+.historia_todas{
+    color: orange;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.historia1{
+*    grid-column: 2/5;
+    grid-row: 2/3;
+
+h2{
+    display: flex;
+    grid-column: 2/5;
+    grid-row: 2/3;
+    color:red;
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+main{
+    line-height: 2;
+}
+.cuadro_contacto{
+    padding: 3px;
+    margin: 3px;
+}
+.form__legend{
+    font-family: 'Bungee Spice', cursive;
+
+}
+.form__input{
+    padding: 3px;
+    margin: 3px;
+}
+
+
+.fondomain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px auto;
+    /*background-image: url(../media/metalvinci.jpg);
+    background-repeat: no-repeat;
+    background-position: right;*/
+}
+.fondomain__texto{
+    color: aqua;
+}
