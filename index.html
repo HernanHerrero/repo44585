@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredoka+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="fondonegro-letraroja">
@@ -18,13 +19,21 @@
         <a class="encabezado__logo" href="#"><img encabezado__logo src="./media/metalforever.png" alt="Logo"></a>
         <div class="encabezado__menu">
             <p class="menu_texto animate__animated animate__bounce">¿Quieres conocer más?</p>
-            <nav class="menu centrado">
+            <!--<nav class="menu centrado">
                 <ul class="menu__flex">
                     <li class="menu__item"><a class="boton_menu" href="./paginas/hard.html">Hard Rock</a></li>
                     <li class="menu__item"><a class="boton_menu" href="./paginas/heavy.html">Heavy Metal</a></li>
                     <li class="menu__item"><a class="boton_menu" href="./paginas/thrash.html">Thrash Metal</a></li>
                     <li class="menu__item"><a class="boton_menu" href="./paginas/contacto.html">Contacto</a></li>
                 </ul>
+            </nav>-->
+            <nav class="menu centrado">
+                <div class="btn-group">
+                    <a href="./paginas/hard.html" class="btn btn-danger">Hard Rock</a>
+                    <a href="./paginas/heavy.html" class="btn btn-danger">Heavy Metal</a>
+                    <a href="./paginas/thrash.html" class="btn btn-danger">Thrash Metal</a>
+                    <a href="./paginas/contacto.html" class="btn btn-danger">Contacto</a>
+                </div>
             </nav>
         </div>
     </header>
@@ -39,6 +48,7 @@
         <section class="videos">
             <img class="flecha" src="./media/flechametal.png" alt="Flecha de Metal apuntando a video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hKdkhDubJWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vk-eI-BHf2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img class="flecha_izq" src="./media/flechametal.png" alt="Flecha de Metal apuntando">
         </section>
         <section class="secciones">
@@ -46,7 +56,7 @@
                 <div class="titulo_secundario">
                     <h2 data-aos="fade-up-right">Hard Rock</h2>
                     <div class="mas_info">
-                        <a href="./paginas/hard.html" class="boton_ver menu__item">Ver más sobre Hard Rock</a>
+                        <a href="./paginas/hard.html" class="boton_ver menu__item">Más sobre Hard Rock</a>
                     </div>
                 </div>
                 <div class="historias">
@@ -65,7 +75,7 @@
                 <div class="titulo_secundario">
                     <h2 data-aos="fade-up-right">Heavy Metal</h2>
                     <div class="mas_info">
-                        <a href="./paginas/heavy.html" class="boton_ver">Ver más sobre Heavy Metal</a>
+                        <a href="./paginas/heavy.html" class="boton_ver">Más sobre Heavy Metal</a>
                     </div>
                 </div>
                 <div class="historias">
@@ -81,7 +91,7 @@
                 <div class="titulo_secundario">
                     <h2 data-aos="fade-up-right">Thrash Metal</h2>
                     <div class="mas_info">
-                        <a href="./paginas/thrash.html" class="boton_ver">Ver más sobre Thrash Metal</a>
+                        <a href="./paginas/thrash.html" class="boton_ver">Más sobre Thrash Metal</a>
                     </div>
                 </div>
                 <div class="historias">
@@ -119,5 +129,6 @@
     <script>
         AOS.init();
       </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
