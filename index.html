@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="fondonegro-letraroja">
-    <header class="encabezado">
+    <header class="encabezado container">
         <a class="encabezado__logo" href="#"><img encabezado__logo src="./media/metalforever.png" alt="Logo"></a>
         <div class="encabezado__menu">
             <p class="menu_texto animate__animated animate__bounce">¿Quieres conocer más?</p>
@@ -37,7 +37,7 @@
             </nav>
         </div>
     </header>
-    <main class="contenedor">
+    <main class="contenedor container">
         <section class="hero">
             <div class="hero__contenido">
                 <h1 class="hero__titulo">¿Conoces la historia del Metal?</h1>
@@ -45,21 +45,22 @@
                 <a href="#comienzo_historia" class="boton_ver">Algo de historia</a>
             </div>           
         </section>
-        <section class="videos">
+        <section class="container">
             <img class="flecha" src="./media/flechametal.png" alt="Flecha de Metal apuntando a video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hKdkhDubJWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/vk-eI-BHf2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img class="flecha_izq" src="./media/flechametal.png" alt="Flecha de Metal apuntando">
         </section>
-        <section class="secciones">
-            <div id="comienzo_historia" class="info">
-                <div class="titulo_secundario">
+        <!--<section class="secciones">-->
+        <section class="row">
+            <!--<div id="comienzo_historia" class="info">-->
+            <div id="comienzo_historia"></div>
                     <h2 data-aos="fade-up-right">Hard Rock</h2>
                     <div class="mas_info">
                         <a href="./paginas/hard.html" class="boton_ver menu__item">Más sobre Hard Rock</a>
                     </div>
                 </div>
-                <div class="historias">
+                <div class="historias col">
                     <p>
                         El hard rock, rock pesado o rock duro, es un subgénero vagamente definido de la música rock surgido a mediados de la década de 1960 a partir de los movimientos del garage, el blues y el rock psicodélico. Se caracteriza por el uso de letras agresivas con guitarras eléctricas distorsionadas, un bajo, batería y, en ocasiones, teclados. 
                     </p><br>
@@ -78,7 +79,7 @@
                         <a href="./paginas/heavy.html" class="boton_ver">Más sobre Heavy Metal</a>
                     </div>
                 </div>
-                <div class="historias">
+                <div class="historias col">
                     <p>
                         El heavy metal, o simplemente metal (pronunciado como métal—en español traducido literalmente como «metal pesado»—, esun géneromusical que nació a finales de los años sesenta y principios delos setenta en el Reino Unido y también en los Estados Unidos,cuyos orígenes provienen del blues rock, hard rock y del rockpsicodélico.
                     </p><br>
@@ -94,7 +95,7 @@
                         <a href="./paginas/thrash.html" class="boton_ver">Más sobre Thrash Metal</a>
                     </div>
                 </div>
-                <div class="historias">
+                <div class="historias col">
                     <p>
                         El thrash metal es un subgénero más agresivo del heavy metal tradicional que se caracteriza específicamente por sus ritmos pesados similares al metal extremo, NWOBHM, speed metal, biker metal y hardcore punk en agresividad y contundencia.
                     </p><br>
@@ -105,7 +106,7 @@
             </div>
         </section>
     </main>
-    <div class="bandas__conocidas">
+    <div class="bandas__conocidas container">
         <h3 class="title__conocidas">Algunas bandas reconocidas</h3>
         <h3>Hard Rock</h3>
         <h3>Heavy Metal</h3>
@@ -121,7 +122,7 @@
         <a href="https://www.anthrax.com/" target="_blank">Anthrax</a>
     </div>
     
-    <footer>
+    <footer container>
         <hr>
         <p>Página creada en curso de Coderhouse</p>
     </footer>
