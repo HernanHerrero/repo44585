@@ -49,10 +49,10 @@ p.menu_header{
     justify-content: center;
     
 }
-.menu__flex{
+.menu__contenedor{
     display: flex;
-    flex-flow: row wrap;
-    list-style-type:none
+    flex-direction: column;
+    justify-content: center;
 }
 
 .menu__item:hover{
@@ -129,19 +129,19 @@ p.menu_header{
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
-    /*text-align: center;
-    position: relative;
+    text-align: center;
+    /*position: relative;
     justify-content: center;*/
 }
 /*.hero__contenido{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}*/
 .hero__titulo{
-    font-size: 4em;
+    font-size: 3em;
 }
-.hero__slogan{
+/*.hero__slogan{
     font-size: 2.5em;
 }*/
 .hero__botonhistoria{
@@ -258,3 +258,27 @@ h3.title__conocidas{
     padding: 3px;
     margin: 3px;
 }
+
+/* RESPONSIVE */
+@media (max-width: 320px) {
+    .hero__titulo {
+        font-family: 'Bungee Spice', cursive;
+        text-align: center;
+        font-size: 1em;
+        }
+}
+@media (min-width:320px) and (max-width: 768px) {
+    .hero__titulo {
+        font-family: 'Bungee Spice', cursive;
+        text-align: center;
+        font-size: 1.5em;
+        }
+}
+@media (min-width:768px) {
+    .hero__titulo {
+        font-family: 'Bungee Spice', cursive;
+        text-align: center;
+        font-size: 3.5em;
+        }
+}
+  
