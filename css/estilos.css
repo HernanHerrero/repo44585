@@ -3,7 +3,6 @@
     padding:0;
     /*box-sizing: border-box;
     font-family: 'Fredoka One', cursive;*/
-
 }
 .fondonegro-letraroja {
     background-image: radial-gradient(circle, #000000, #150206, #210409, #2a0509, #340407, #340407, #340407, #340407, #2a0509, #210409, #150206, #000000);    color: red;
@@ -123,15 +122,15 @@ p.menu_header{
     margin: 0 auto;
 }*/
 .hero{
-    /*display: flex;
-    background-position: center top;*/
+    display: flex;
+    background-position: center top;
     background-image: url("../media/cuernos.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
     text-align: center;
-    /*position: relative;
-    justify-content: center;*/
+    position: relative;
+    justify-content: flex-start;
 }
 /*.hero__contenido{
     display: flex;
@@ -158,13 +157,11 @@ p.menu_header{
 .flecha{
     width: 5%;
     height: 5%;
-    margin-right: 5rem;
 }
 .flecha_izq{
     width: 5%;
     height: 5%;
     transform: rotate(180deg);
-    margin-left: 5rem;
 }
 
 h1, h2, h3{
