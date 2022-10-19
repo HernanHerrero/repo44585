@@ -1,12 +1,15 @@
 *{
     margin:0;
     padding:0;
-    /*box-sizing: border-box;
-    font-family: 'Fredoka One', cursive;*/
+    /*box-sizing: border-box;*/
+    font-family: 'Fredoka One', cursive;
 }
 .fondonegro-letraroja {
-    background-image: radial-gradient(circle, #000000, #150206, #210409, #2a0509, #340407, #340407, #340407, #340407, #2a0509, #210409, #150206, #000000);    color: red;
-    margin: 1rem;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(196deg, rgba(0,0,0,1) 54%, rgba(135,0,0,1) 62%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(196deg, rgba(0,0,0,1) 54%, rgba(135,0,0,1) 62%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(196deg, rgba(0,0,0,1) 54%, rgba(135,0,0,1) 62%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);     margin: 1rem;
 }
 .encabezado{
     background: rgb(255,122,0);
@@ -45,7 +48,7 @@ p.menu_header{
 .menu{
     padding: 0.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     
 }
 .menu__contenedor{
@@ -91,7 +94,7 @@ p.menu_header{
     width: 8rem;
 }
 .boton_ver{
-    display: inline-block;
+    /*display: inline-block;
     color: orange;
     background-color: blueviolet;
     text-decoration: none;
@@ -99,7 +102,7 @@ p.menu_header{
     border-radius: 0.3rem;
     border: 2px orange solid;
     height: 2rem;
-    width: 12rem;
+    width: 12rem;*/
     animation-name: latir;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -126,8 +129,7 @@ p.menu_header{
     background-position: center top;
     background-image: url("../media/cuernos.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
+    background-size: cover;
     text-align: center;
     position: relative;
     justify-content: flex-start;
@@ -152,30 +154,41 @@ p.menu_header{
     align-items: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
-
 }
-.flecha{
-    width: 5%;
-    height: 5%;
+/* Start: Video Responsive 
+.videos__responsive {
+    overflow:hidden;
+    padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
+/*    position:relative;
+    height:0;
 }
-.flecha_izq{
-    width: 5%;
-    height: 5%;
-    transform: rotate(180deg);
+.videos__responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
+/* End: Video Responsive */
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+  }
+  
 
 h1, h2, h3{
     font-family: 'Bungee Spice', cursive;
     text-align: center;
     font-size: 3em;
 }
-h2{
+/*h2{
     display: flex;
     grid-column: 2/5;
     grid-row: 2/3;
     color:red;
     font-size: 3em;
-}
+}*/
 h3{
     font-size: 1.5em;
 }
@@ -203,18 +216,13 @@ h3{
     align-items: center;
 }
 .mas_info{
-    display: flex;
-    text-align: right;
-    margin-right: 3rem;
+    text-align: center;
 }
 .historias{
     color: orange;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: justify;
-    line-height: 2;
-    border-bottom: 2px red solid;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    line-height: 1.5;
 } 
 main{
     line-height: 2;
@@ -249,7 +257,6 @@ h3.title__conocidas{
 }
 .form__legend{
     font-family: 'Bungee Spice', cursive;
-
 }
 .form__input{
     padding: 3px;
@@ -261,21 +268,82 @@ h3.title__conocidas{
     .hero__titulo {
         font-family: 'Bungee Spice', cursive;
         text-align: center;
-        font-size: 1em;
-        }
-}
-@media (min-width:320px) and (max-width: 768px) {
-    .hero__titulo {
-        font-family: 'Bungee Spice', cursive;
-        text-align: center;
         font-size: 1.5em;
         }
+    .hero{
+        display: flex;
+        background-position: center top;
+        background-image: url("../media/cuernos.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        justify-content: flex-start;
+        width: 264px;
+        height: 132px;
+        margin: 0;
+    }
+    .titulo__respo{
+        font-size: 1.5em;
+        padding-top: 2rem;
+    }
+    .bandas_respo{
+        font-size: 1em;
+    }
 }
-@media (min-width:768px) {
+@media (min-width:321px) and (max-width: 768px) {
     .hero__titulo {
         font-family: 'Bungee Spice', cursive;
         text-align: center;
-        font-size: 3.5em;
+        font-size: 2em;
+        
+    }
+    
+    .hero{
+        display: flex;
+        background-position: center top;
+        background-image: url("../media/cuernos.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        justify-content: flex-start;
+        width: 720px;
+        height: 360px;
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+    }
+    .titulo__respo{
+        font-size: 2.5em;
+        padding-top: 2rem;
+    }
+   
+    /*.boton__menu--texto{
+        font-size: .75em;
+    }*/
+}
+@media (min-width:769px) {
+    .hero__titulo {
+        font-family: 'Bungee Spice', cursive;
+        text-align: center;
+        font-size: 2.8em;
+        padding-top: 2rem;
+        padding-bottom: 1rem;    
         }
+    .hero{
+        display: flex;
+        background-position: center top;
+        background-image: url("../media/cuernos.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        justify-content: flex-start;
+        height: 570px;
+    }
+    .titulo__respo{
+        font-size: 3em;
+        padding-top: 2rem;
+    }
 }
   

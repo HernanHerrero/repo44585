@@ -16,110 +16,147 @@
 <body class="fondonegro-letraroja">
     <header class="encabezado container">
         <div class="row">
-            <a class="col-xs-12 col-md-6 col-lg-7 col-xl-8 encabezado__logo" href="#"><img src="./media/metalforever.png" alt="Logo"></a>
-            <div class="menu__contenedor col-xs-12 col-md-6 col-lg-5 col-xl-4">
-                <p class="menu_header animate__animated animate__bounce text-center">¿Quieres conocer más?</p>
+            <a class="col-xs-12 col-md-5 col-lg-7 col-xl-8 encabezado__logo" href="#"><img src="./media/metalforever.png" alt="Logo"></a>
+            <div class="menu__contenedor col-xs-12 col-md-7 col-lg-5 col-xl-4">
+                <!--<p class="menu_header animate__animated animate__bounce text-center">¿Quieres conocer más?</p>-->
                 <nav class="menu centrado">
                     <div class="btn-group">
-                        <a href="./paginas/hard.html" class="btn btn-danger btn-sm">Hard Rock</a>
-                        <a href="./paginas/heavy.html" class="btn btn-danger btn-sm">Heavy Metal</a>
-                        <a href="./paginas/thrash.html" class="btn btn-danger btn-sm">Thrash Metal</a>
-                        <a href="./paginas/contacto.html" class="btn btn-danger btn-sm">Contacto</a>
+                        <a href="./paginas/heavy.html" class="btn btn-danger btn-sm boton__menu--texto">Heavy</a>
+                        <a href="./paginas/thrash.html" class="btn btn-danger btn-sm boton__menu--texto">Thrash</a>
+                        <a href="./paginas/hard.html" class="btn btn-danger btn-sm boton__menu--texto">Hard</a>
+                        <a href="./paginas/contacto.html" class="btn btn-danger btn-sm boton__menu--texto">Contacto</a>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
+
     <main class="contenedor container">
         <section class="hero row">
             <div class="col-12">
-                <!--<img class="img-fluid" src="./media/cuernos.jpg" alt="Manos haciendo cuernos en un recital">-->
                 <h1 class="hero__titulo col-12">¿Conoces la historia del Metal?</h1>
-                <p class="hero__slogan col-12">¡Click en el botón y te explico!</p>
-                <a href="#comienzo_historia" class="boton_ver">Algo de historia</a>
+                <a href="#comienzo_historia" class="btn btn-danger btn-sm boton_ver menu__item">Algo de historia</a>
             </div>           
         </section>
+
         <section class="container">
             <div class="row">
-                <img class="flecha col-1" src="./media/flechametal.png" alt="Flecha de Metal apuntando a video">
-                <iframe class="col-5" width="560" height="315" src="https://www.youtube.com/embed/hKdkhDubJWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe class="col-5" width="560" height="315" src="https://www.youtube.com/embed/vk-eI-BHf2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <img class="flecha_izq col-1" src="./media/flechametal.png" alt="Flecha de Metal apuntando">
-                <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/hKdkhDubJWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vk-eI-BHf2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                -->
+                <div class="col-xs-12 col-md-6 p-2">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/hKdkhDubJWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-xs-12 col-md-6 p-2">
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/vk-eI-BHf2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+   
             </div>
         </section>
-        <!--<section class="secciones">-->
+
         <section class="row">
-            <!--<div id="comienzo_historia" class="info">-->
-            <div id="comienzo_historia"></div>
-                <h2 data-aos="fade-up-right">Hard Rock</h2>
+            
+            <div class="col-xs-12 col-md-6">
+                <div class="titulo_secundario">
+                    <h2 class="titulo__respo" data-aos="fade-up-right">Heavy Metal</h2>
+                    
+                </div>
+                <div class="historias">
+                    <p>
+                        El heavy metal, o simplemente metal (pronunciado como métal—en español traducido literalmente como «metal pesado»—, es un género musical que nació a finales de los años sesenta y principios delos setenta en el Reino Unido y también en los Estados Unidos,cuyos orígenes provienen del blues rock, hard rock y del rockpsicodélico.
+                    </p>
+                    <p>
+                        Se caracteriza principalmente por sus guitarrasfuertes y distorsionadas, ritmos enfáticos, los sonidos del bajoy la batería son más densos de lo habitual y la voz esgeneralmente aguda o gutural.
+                    </p>
+                </div>
                 <div class="mas_info">
-                    <a href="./paginas/hard.html" class="boton_ver menu__item">Más sobre Hard Rock</a>
+                    <a href="./paginas/heavy.html" class="btn btn-danger boton_ver menu__item align-items-end">Más sobre Heavy Metal</a>
                 </div>
             </div>
-                <div class="historias col">
-                    <p>
-                        El hard rock, rock pesado o rock duro, es un subgénero vagamente definido de la música rock surgido a mediados de la década de 1960 a partir de los movimientos del garage, el blues y el rock psicodélico. Se caracteriza por el uso de letras agresivas con guitarras eléctricas distorsionadas, un bajo, batería y, en ocasiones, teclados. 
-                    </p><br>
-                    <p>
-                        Dentro de sus orígenes e influencias se pueden mencionar estilos y géneros tan variados como el rock and roll clásico, el blues rock, el garage rock, el rock psicodélico y la música folk pero, desde diferentes puntos de vista, fue eliminando elementos externos y se constituyó como identidad propia.
-                    </p><br>
-                    <p>
-                        El término hard rock suele abarcar a los derivados y subgéneros del rock más «pesados» y «rudos» que el tradicional, entre los cuales se puede mencionar al heavy metal, el glam rock, el grunge, el glam metal, el rock sureño, el stoner rock, el punk rock e incluso el AOR entre otros, considerados como subgéneros comprendidos dentro del hard rock, o géneros derivados del mismo. <br>
-                    </p>
-                </div>  
-            </div>
-            <div class="info">
+            <div class="col-xs-12 col-md-6">
                 <div class="titulo_secundario">
-                    <h2 data-aos="fade-up-right">Heavy Metal</h2>
-                    <div class="mas_info">
-                        <a href="./paginas/heavy.html" class="boton_ver">Más sobre Heavy Metal</a>
-                    </div>
+                    <h2 class="titulo__respo" data-aos="fade-up-right">Thrash Metal</h2>
+                    
                 </div>
-                <div class="historias col">
-                    <p>
-                        El heavy metal, o simplemente metal (pronunciado como métal—en español traducido literalmente como «metal pesado»—, esun géneromusical que nació a finales de los años sesenta y principios delos setenta en el Reino Unido y también en los Estados Unidos,cuyos orígenes provienen del blues rock, hard rock y del rockpsicodélico.
-                    </p><br>
-                    <p>
-                        Se caracteriza principalmente por sus guitarrasfuertes y distorsionadas, ritmos enfáticos, los sonidos del bajoy la batería son más densos de lo habitual y la voz esgeneralmente aguda o gutural. <br>
-                    </p>
-                </div>
-            </div>
-            <div class="info">
-                <div class="titulo_secundario">
-                    <h2 data-aos="fade-up-right">Thrash Metal</h2>
-                    <div class="mas_info">
-                        <a href="./paginas/thrash.html" class="boton_ver">Más sobre Thrash Metal</a>
-                    </div>
-                </div>
-                <div class="historias col">
+                <div class="historias">
                     <p>
                         El thrash metal es un subgénero más agresivo del heavy metal tradicional que se caracteriza específicamente por sus ritmos pesados similares al metal extremo, NWOBHM, speed metal, biker metal y hardcore punk en agresividad y contundencia.
-                    </p><br>
+                    </p>
                     <p>
                         Las canciones del género suelen utilizar percusión rápida y un bajo registro de riffs de guitarra, los cuales suelen ser así mismo rápidos y cortantes. Las letras de las canciones de thrash metal a menudo se enfrentan con los problemas sociales, en muchas ocasiones con un lenguaje directo y de denuncia. 
                     </p>
                 </div>
+                <div class="mas_info">
+                    <a href="./paginas/thrash.html" class="btn btn-danger boton_ver menu__item">Más sobre Thrash Metal</a>
+                </div>
+            </div>
+            <div class="col-12">
+            
+            <div id="comienzo_historia"></div>
+                <h2 class="titulo__respo" data-aos="fade-up-right">Hard Rock</h2>
+                <div class="historias">
+                    <p>
+                        El hard rock, rock pesado o rock duro, es un subgénero vagamente definido de la música rock surgido a mediados de la década de 1960 a partir de los movimientos del garage, el blues y el rock psicodélico. Se caracteriza por el uso de letras agresivas con guitarras eléctricas distorsionadas, un bajo, batería y, en ocasiones, teclados. 
+                    </p>
+                    <p>
+                        Dentro de sus orígenes e influencias se pueden mencionar estilos y géneros tan variados como el rock and roll clásico, el blues rock, el garage rock, el rock psicodélico y la música folk pero, desde diferentes puntos de vista, fue eliminando elementos externos y se constituyó como identidad propia.
+                    </p>
+                    <p>
+                        El término hard rock suele abarcar a los derivados y subgéneros del rock más «pesados» y «rudos» que el tradicional, entre los cuales se puede mencionar al heavy metal, el glam rock, el grunge, el glam metal, el rock sureño, el stoner rock, el punk rock e incluso el AOR entre otros, considerados como subgéneros comprendidos dentro del hard rock, o géneros derivados del mismo.
+                    </p>
+                </div>  
+                <div class="mas_info">
+                    <a href="./paginas/hard.html" class="btn btn-danger boton_ver menu__item">Más sobre Hard Rock</a>
+                </div>
+            </div>
             </div>
         </section>
+
+
+        <div class="container text-center">
+            <h2 class="title__conocidas titulo__respo" data-aos="zoom-in-down">Bandas reconocidas</h2>
+            <div class="row">
+              <div class="col-sx-12 col-md-4">
+                <h3 class="bandas_respo">Heavy Metal</h3>
+                <div class="d-grid gap-1 col-7 mx-auto">
+                    <a href="https://www.blacksabbath.com/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Black Sabbath</a><br>
+                    <a href="https://www.judaspriest.com/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Judas Priest</a><br>
+                    <a href="https://www.ironmaiden.com/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Iron Maiden</a>
+                </div>
+            </div>
+            <div class="col-sx-12 col-md-4">
+                <h3 class="bandas_respo">Thrash Metal</h3>
+                <div class="d-grid gap-1 col-7 mx-auto">
+                    <a href="https://www.slayer.net/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Slayer</a><br>
+                    <a href="https://megadeth.com/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Megadeth</a><br>
+                    <a href="https://www.anthrax.com/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Anthrax</a>
+                </div>
+            </div>
+            <div class="col-sx-12 col-md-4">
+                <h3 class="bandas_respo">Hard Rock</h3>
+                <div class="d-grid gap-1 col-7 mx-auto">
+                    <a href="https://www.acdc.com/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">AC/DC</a><br>
+                    <a href="https://whitesnake.com/" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Whitesnake</a><br>
+                    <a href="https://www.blackmoresnight.com/ritchie-blackmores-rainbow" target="_blank" class="btn btn-outline-danger btn-sm" type="button">Rainbow</a>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!--<div class="bandas__conocidas container">
+            <h3 class="title__conocidas" data-aos="zoom-in-down">Algunas bandas reconocidas</h3>
+            <h3>Hard Rock</h3>
+            <h3>Heavy Metal</h3>
+            <h3>Thrash Metal</h3>
+            <a href="https://www.acdc.com/" target="_blank">AC/DC</a>
+            <a href="https://www.blacksabbath.com/" target="_blank">Black Sabbath</a>
+            <a href="https://www.slayer.net/" target="_blank">Slayer</a>
+            <a href="https://whitesnake.com/" target="_blank">Whitesnake</a>
+            <a href="https://www.judaspriest.com/" target="_blank">Judas Priest</a>
+            <a href="https://megadeth.com/" target="_blank">Megadeth</a>
+            <a href="https://www.blackmoresnight.com/ritchie-blackmores-rainbow" target="_blank">Rainbow</a>
+            <a href="https://www.anthrax.com/" target="_blank">Anthrax</a>
+        </div>-->
     </main>
-    <div class="bandas__conocidas container">
-        <h3 class="title__conocidas">Algunas bandas reconocidas</h3>
-        <h3>Hard Rock</h3>
-        <h3>Heavy Metal</h3>
-        <h3>Thrash Metal</h3>
-        <a href="https://www.acdc.com/" target="_blank">AC/DC</a>
-        <a href="https://www.blacksabbath.com/" target="_blank">Black Sabbath</a>
-        <a href="https://www.slayer.net/" target="_blank">Slayer</a>
-        <a href="https://whitesnake.com/" target="_blank">Whitesnake</a>
-        <a href="https://www.judaspriest.com/" target="_blank">Judas Priest</a>
-        <a href="https://megadeth.com/" target="_blank">Megadeth</a>
-        <a href="https://www.blackmoresnight.com/ritchie-blackmores-rainbow" target="_blank">Rainbow</a>
-        <a href="https://www.ironmaiden.com/" target="_blank">Iron Maiden</a>
-        <a href="https://www.anthrax.com/" target="_blank">Anthrax</a>
-    </div>
     
     <footer container>
         <hr>
