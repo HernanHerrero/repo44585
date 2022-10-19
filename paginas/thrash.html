@@ -5,40 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metal Forever - Thrash Metal</title>
-    <link rel="shortcut icon" href="./media/favimetal.png">
+    <link rel="shortcut icon" href="../media/favimetal.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredoka+One&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredoka+One&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+
 </head>
 <body class="fondonegro-letraroja">
-    <header>
-        <a href="../index.html">
-            <img src="../media/metalforever.jpg" alt="Logo">
-        </a>
-        <!--<nav>
-            <ul>
-                <li class="menu__item"><a class="boton_menu" href="./hard.html">Hard Rock</a></li>
-                <li class="menu__item"><a class="boton_menu" href="./heavy.html">Heavy Metal</a></li>
-                <li class="menu__item"><a class="boton header__menu--activo" href="#">Thrash Metal</a></li>
-                <li class="menu__item"><a class="boton_menu" href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>-->
-        <nav class="menu centrado">
-            <div class="btn-group">
-                <a href="../paginas/hard.html" class="btn btn-danger">Hard Rock</a>
-                <a href="../paginas/heavy.html" class="btn btn-danger">Heavy Metal</a>
-                <a href="#" class="btn btn-danger active">Thrash Metal</a>
-                <a href="../paginas/contacto.html" class="btn btn-danger">Contacto</a>
+    <header class="encabezado container">
+        <div class="row">
+            <a class="col-xs-12 col-md-5 col-lg-7 col-xl-8 encabezado__logo" href="../index.html"><img src="../media/metalforever.png" alt="Logo"></a>
+            <div class="menu__contenedor col-xs-12 col-md-7 col-lg-5 col-xl-4">
+                <nav class="menu centrado">
+                    <div class="btn-group">
+                        <a href="../paginas/heavy.html" class="btn btn-danger btn-sm boton__menu--texto">Heavy</a>
+                        <a href="#" class="btn btn-danger btn-sm boton__menu--texto active">Thrash</a>
+                        <a href="../paginas/hard.html" class="btn btn-danger btn-sm boton__menu--texto">Hard</a>
+                        <a href="../paginas/contacto.html" class="btn btn-danger btn-sm boton__menu--texto">Contacto</a>
+                    </div>
+                </nav>
             </div>
-        </nav>
-        <h1>Thrash Metal</h1>
-        <img src="../media/slayer.jpg" alt="Foto de Slayer en sus comienzos" width="40%" height="40%">
+        </div>
     </header>
-    <main class="historia3">
+    <main class="historias">
+        <h1 class="titulo__respo">Thrash Metal</h1>
+        <img  src="../media/slayer.jpg" class="img-fluid pt-3 pb-3" alt="Foto de Judas Priest en sus comienzos">
+
         <p>
             Fue uno de los primeros subgéneros del heavy metal en aparecer, siendo el tema Stone Cold Crazy de Queen una pieza referencial para el futuro sonido del thrash metal publicada en 1974 . De esta forma, el thrash metal es la base y la mayor influencia en el metal extremo, donde se incluye principalmente al death metal y el black metal; además de tener un importante desarrollo (junto con el speed metal) en el power metal, si bien este estilo llevó la música por un camino más melódico. También el género ha influido peculiarmente en otros subgéneros como el metalcore, esto lo demuestran bandas como Trivium, Unearth o Chimaira como algunos de los ejemplos más populares. Cabe resaltar la importancia en la creación y evolución del género de las bandas primigenias mejor conocidas como Los cuatro grandes del thrash metal, las cuales son consideradas las más representativas y en un orden fundacional. 
         </p>
@@ -47,9 +42,11 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/NakAypNTNlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </main>
-    <footer>
-        <hr>
-        <p>Página creada en curso de Coderhouse</p>
+    <footer container>
+        <hr  class="border border-danger border-2 opacity-50">
+        <div class="row"></div>
+            <p class="historias text-center col-12">Página creada por Hernán Herrero en curso de Coderhouse</p>
+        </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

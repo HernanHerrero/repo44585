@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    /*box-sizing: border-box;*/
     font-family: 'Fredoka One', cursive;
 }
 .fondonegro-letraroja {
@@ -19,8 +18,6 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7a00",endColorstr="#000000",GradientType=1); 
 }
 .encabezado__logo{
-    /*grid-row: 1/3;
-    grid-column: 1/2;*/
     animation: entra_logo 0.8s 1 ease-in;
 }
 @keyframes entra_logo{
@@ -37,26 +34,19 @@
     justify-self:center;
 }
 p.menu_header{
-    /*display: flex;
-    justify-content: right;*/
     font-family: 'Bungee Spice', cursive;
     font-size: 1.5em;
-    /*padding-right: 7rem;*/
-    
  }
- 
 .menu{
     padding: 0.5rem;
     display: flex;
     justify-content: right;
-    
 }
 .menu__contenedor{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .menu__item:hover{
     filter: opacity(0.9);
     transform: scale(1.04);
@@ -73,13 +63,7 @@ p.menu_header{
     border: 2px orange solid;
     height: 2rem;
     width: 8rem;
-    
-
 }
-/*.boton_menu1{
-    grid-column: 8/12;
-    grid-row: 2/3;
-}*/
 .header__menu--activo{
     display: inline-block;
     background-color: orange;
@@ -94,15 +78,6 @@ p.menu_header{
     width: 8rem;
 }
 .boton_ver{
-    /*display: inline-block;
-    color: orange;
-    background-color: blueviolet;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 0.3rem;
-    border: 2px orange solid;
-    height: 2rem;
-    width: 12rem;*/
     animation-name: latir;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -120,10 +95,6 @@ p.menu_header{
         transform: scale(1);    
     }
 }
-/*.contenedor{
-    max-width: 1400px;
-    margin: 0 auto;
-}*/
 .hero{
     display: flex;
     background-position: center top;
@@ -134,17 +105,9 @@ p.menu_header{
     position: relative;
     justify-content: flex-start;
 }
-/*.hero__contenido{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
 .hero__titulo{
     font-size: 3em;
 }
-/*.hero__slogan{
-    font-size: 2.5em;
-}*/
 .hero__botonhistoria{
     font-size: 1.5em;
 }
@@ -155,44 +118,19 @@ p.menu_header{
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
-/* Start: Video Responsive 
-.videos__responsive {
-    overflow:hidden;
-    padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
-/*    position:relative;
-    height:0;
-}
-.videos__responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-/* End: Video Responsive */
 .video {
     aspect-ratio: 16 / 9;
     width: 100%;
     height: auto;
   }
-  
-
 h1, h2, h3{
     font-family: 'Bungee Spice', cursive;
     text-align: center;
     font-size: 3em;
 }
-/*h2{
-    display: flex;
-    grid-column: 2/5;
-    grid-row: 2/3;
-    color:red;
-    font-size: 3em;
-}*/
 h3{
     font-size: 1.5em;
 }
-
 .secciones{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -204,11 +142,10 @@ h3{
     overflow: hidden;
     margin: 2rem;
 }
-.logo{
-   /* display: flex;*/
+/*.logo{
     grid-column: 8/13;
     grid-row: 1 / 5;
-}
+}*/
 .titulo_secundario{
     display: flex;
     flex-flow: row wrap;
@@ -238,15 +175,10 @@ main{
 h3.title__conocidas{
     grid-column: 1/4;
 }
-
-
 .fondomain{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30px auto;
-    /*background-image: url(../media/metalvinci.jpg);
-    background-repeat: no-repeat;
-    background-position: right;*/
 }
 .fondomain__texto{
     color: aqua;
@@ -296,9 +228,7 @@ h3.title__conocidas{
         font-family: 'Bungee Spice', cursive;
         text-align: center;
         font-size: 2em;
-        
     }
-    
     .hero{
         display: flex;
         background-position: center top;
@@ -317,10 +247,6 @@ h3.title__conocidas{
         font-size: 2.5em;
         padding-top: 2rem;
     }
-   
-    /*.boton__menu--texto{
-        font-size: .75em;
-    }*/
 }
 @media (min-width:769px) {
     .hero__titulo {
