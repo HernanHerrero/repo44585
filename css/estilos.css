@@ -2,15 +2,16 @@
     margin:0;
     padding:0;
     font-family: 'Fredoka One', cursive;
+    
 }
-/* a probar SASS */
-.fondonegro-letraroja{
+
+/* HEADER */
+.background{
     background: rgb(0,0,0);
     background: -moz-linear-gradient(196deg, rgba(0,0,0,1) 54%, rgba(135,0,0,1) 62%, rgba(0,0,0,1) 100%);
     background: -webkit-linear-gradient(196deg, rgba(0,0,0,1) 54%, rgba(135,0,0,1) 62%, rgba(0,0,0,1) 100%);
     background: linear-gradient(196deg, rgba(0,0,0,1) 54%, rgba(135,0,0,1) 62%, rgba(0,0,0,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);     
-    margin: 1rem;
 }
 .encabezado{
     background: rgb(255,122,0);
@@ -32,23 +33,21 @@
         opacity: 1;
     }
 }
-.centrado{
-    justify-self:center;
-}
-.menu__contenedor{
+.encabezado__menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.menu{
+.encabezado__menu--nav{
     padding: 0.5rem;
     display: flex;
     justify-content: right;
 }
-main{
-    line-height: 2;
-}
+
+
+/* HERO */
+
 .hero{
     display: flex;
     background-position: center top;
@@ -62,6 +61,8 @@ main{
 .hero__titulo{
     font-size: 3em;
 }
+
+/* UTILITARIAS */
 .boton_ver{
     animation-name: latir;
     animation-iteration-count: infinite;
@@ -76,11 +77,6 @@ main{
         transform: scale(1);    
     }
 }
-.video {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    height: auto;
-}
 h1, h2, h3{
     font-family: 'Bungee Spice', cursive;
     text-align: center;
@@ -88,12 +84,8 @@ h1, h2, h3{
 h3{
     font-size: 1.5em;
 }
-.titulo_secundario{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
+/* HISTORIAS */
 .mas_info{
     text-align: center;
 }
@@ -103,6 +95,21 @@ h3{
     text-align: justify;
     line-height: 1.5;
 } 
+
+/* VIDEO */
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
+
+/* .titulo_secundario{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+} */
 .bandas__conocidas{
     display: grid;
     grid-template-columns: repeat(3, 300px);
@@ -110,9 +117,6 @@ h3{
     place-content: center;
     justify-items: center;
     align-items: center;
-}
-h3.title__conocidas{
-    grid-column: 1/4;
 }
 
 /* RESPONSIVE */

@@ -1,0 +1,17 @@
+.mas_info{
+    text-align: center;
+}
+.historias{
+    color: orange;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5;
+} 
+.bandas__conocidas{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 1fr repeat(4, 1fr);
+    place-content: center;
+    justify-items: center;
+    align-items: center;
+}
