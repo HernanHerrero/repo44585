@@ -12,17 +12,17 @@
         height: 132px;
         margin: 8px;
         &__titulo {
-            font-family: 'Bungee Spice', cursive;
+            font-family: $fuente_titulos;
             text-align: center;
-            font-size: 1.5em;
+            font-size: $fuente-sm;
             }
     }
     .titulo__respo{
-        font-size: 1.5em;
+        font-size: $fuente-sm;
         padding-top: 2rem;
     }
     .bandas_respo{
-        font-size: 1em;
+        font-size: $fuente-xs;
     }
     .encabezado__menu {
         flex-direction: row;
@@ -47,13 +47,13 @@
         padding-top: 1rem;
         padding-bottom: .5rem;
         &__titulo {
-            font-family: 'Bungee Spice', cursive;
+            font-family: $fuente_titulos;
             text-align: center;
-            font-size: 2em;
+            font-size: $fuente-md;
         }
     }
     .titulo__respo{
-        font-size: 2.5em;
+        font-size: $fuente-lg;
         padding-top: 2rem;
     }
 }
@@ -69,15 +69,15 @@
         justify-content: flex-start;
         height: 570px;
         &__titulo {
-            font-family: 'Bungee Spice', cursive;
+            font-family: $fuente_titulos;
             text-align: center;
-            font-size: 2.8em;
+            font-size: $fuente-xl;
             padding-top: 2rem;
             padding-bottom: 1rem;    
             }
     }
     .titulo__respo{
-        font-size: 3em;
+        font-size: $fuente-xxl;
         padding-top: 2rem;
     }
 }

@@ -1,3 +1,4 @@
+@import "./variables";
 .hero{
     display: flex;
     background-position: center top;
@@ -8,6 +9,6 @@
     position: relative;
     justify-content: flex-start;
     &__titulo{
-        font-size: 3em;
+        font-size: $fuente-xxl;
     }
 }
