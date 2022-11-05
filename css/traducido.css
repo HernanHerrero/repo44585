@@ -73,7 +73,8 @@ h3 {
   color: orange;
   font-size: 1em;
   text-align: justify;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background-color: transparent; }
 
 .bandas__conocidas {
   display: grid;
