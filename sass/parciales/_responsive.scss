@@ -56,8 +56,11 @@
         font-size: $fuente-lg;
         padding-top: 2rem;
     }
+    .altura_tarjeta{
+        height: 1050px;
+    }
 }
-@media (min-width:769px) {
+@media (min-width:769px) and (max-width: 1024px)  {
     .hero{
         display: flex;
         background-position: center top;
@@ -79,5 +82,13 @@
     .titulo__respo{
         font-size: $fuente-xxl;
         padding-top: 2rem;
+    }
+    .altura_tarjeta{
+        height: 902px;
+    }
+}
+@media (min-width:1025px){
+    .altura_tarjeta{
+        height: 710px;
     }
 }
