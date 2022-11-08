@@ -43,7 +43,8 @@
   background-size: cover;
   text-align: center;
   position: relative;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  height: 100vh; }
   .hero__titulo {
     font-size: 3em; }
 
@@ -73,7 +74,8 @@ h3 {
   color: orange;
   font-size: 1em;
   text-align: justify;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background-color: transparent; }
 
 .bandas__conocidas {
   display: grid;
@@ -136,9 +138,11 @@ h3 {
       font-size: 2em; }
   .titulo__respo {
     font-size: 2.5em;
-    padding-top: 2rem; } }
+    padding-top: 2rem; }
+  .altura_tarjeta {
+    height: 1050px; } }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .hero {
     display: flex;
     background-position: center top;
@@ -157,4 +161,10 @@ h3 {
       padding-bottom: 1rem; }
   .titulo__respo {
     font-size: 3em;
-    padding-top: 2rem; } }
+    padding-top: 2rem; }
+  .altura_tarjeta {
+    height: 902px; } }
+
+@media (min-width: 1025px) {
+  .altura_tarjeta {
+    height: 710px; } }
