@@ -5,27 +5,24 @@
 
 .background {
   background: black;
-  background: -moz-linear-gradient(196deg, black 54%, #870000 62%, black 100%);
-  background: -webkit-linear-gradient(196deg, black 54%, #870000 62%, black 100%);
-  background: linear-gradient(196deg, black 54%, #870000 62%, black 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1); }
+  background: -moz-linear-gradient(322deg, black 25%, #870000 50%, black 75%);
+  background: -webkit-linear-gradient(322deg, black 25%, #870000 50%, black 75%);
+  background: linear-gradient(322deg, black 25%, #870000 50%, black 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  overflow: hidden;
+  overflow-y: auto; }
 
-.encabezado {
-  background: #ff7a00;
-  background: -moz-radial-gradient(circle, #ff7a00 0%, red 19%, black 40%);
-  background: -webkit-radial-gradient(circle, #ff7a00 0%, red 19%, black 40%);
-  background: radial-gradient(circle, #ff7a00 0%, red 19%, black 40%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7a00",endColorstr="#000000",GradientType=1); }
-  .encabezado__logo {
-    animation: entra_logo 0.8s 1 ease-in; }
-  .encabezado__menu {
+.encabezado__logo {
+  animation: entra_logo 0.8s 1 ease-in; }
+
+.encabezado__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .encabezado__menu--nav {
+    padding: 0.5rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .encabezado__menu--nav {
-      padding: 0.5rem;
-      display: flex;
-      justify-content: right; }
+    justify-content: right; }
 
 @keyframes entra_logo {
   0% {
@@ -67,6 +64,9 @@ h1, h2, h3 {
 h3 {
   font-size: 1.5em; }
 
+.ver_link {
+  color: orange; }
+
 .mas_info {
   text-align: center; }
 
@@ -74,7 +74,7 @@ h3 {
   color: orange;
   font-size: 1em;
   text-align: justify;
-  line-height: 1.5;
+  line-height: 1.8;
   background-color: transparent; }
 
 .bandas__conocidas {
@@ -140,7 +140,7 @@ h3 {
     font-size: 2.5em;
     padding-top: 2rem; }
   .altura_tarjeta {
-    height: 1050px; } }
+    height: 1190px; } }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero {
@@ -163,8 +163,12 @@ h3 {
     font-size: 3em;
     padding-top: 2rem; }
   .altura_tarjeta {
-    height: 902px; } }
+    height: 1000px; } }
 
 @media (min-width: 1025px) {
   .altura_tarjeta {
-    height: 710px; } }
+    height: 770px; }
+  .hero__titulo {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    font-size: 3.5em; } }

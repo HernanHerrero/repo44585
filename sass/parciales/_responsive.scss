@@ -57,7 +57,7 @@
         padding-top: 2rem;
     }
     .altura_tarjeta{
-        height: 1050px;
+        height: 1190px;
     }
 }
 @media (min-width:769px) and (max-width: 1024px)  {
@@ -84,11 +84,16 @@
         padding-top: 2rem;
     }
     .altura_tarjeta{
-        height: 902px;
+        height: 1000px;
     }
 }
 @media (min-width:1025px){
     .altura_tarjeta{
-        height: 710px;
+        height: 770px;
+    }
+    .hero__titulo{
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+        font-size: $fuente-xxxl;
     }
 }
