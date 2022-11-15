@@ -19,7 +19,7 @@
     }
     .titulo__respo{
         font-size: $fuente-sm;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
     }
     .bandas_respo{
         font-size: $fuente-xs;
@@ -30,6 +30,12 @@
         &--nav{
             justify-content: center;
         }
+    }
+    .card_contenedor{
+        padding: 0px;
+    }
+    .tamano_tarjeta{
+        margin: 7px;
     }
 }
 @media (min-width:321px) and (max-width: 768px) {
@@ -54,10 +60,13 @@
     }
     .titulo__respo{
         font-size: $fuente-lg;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
     }
-    .altura_tarjeta{
-        height: 1190px;
+    .card_contenedor{
+        padding: 0px;
+    }
+    .tamano_tarjeta{
+        height: 1095px;
     }
 }
 @media (min-width:769px) and (max-width: 1024px)  {
@@ -74,26 +83,36 @@
         &__titulo {
             font-family: $fuente_titulos;
             text-align: center;
-            font-size: $fuente-xl;
-            padding-top: 2rem;
+            font-size: $fuente-xxl;
+            padding-top: 1.6rem;
             padding-bottom: 1rem;    
             }
     }
     .titulo__respo{
-        font-size: $fuente-xxl;
-        padding-top: 2rem;
+        font-size: $fuente-md;
+        padding-top: 1.5rem;
     }
-    .altura_tarjeta{
-        height: 1000px;
+    .card_contenedor{
+        padding: 0px;
+    }
+    .tamano_tarjeta{
+        height: 850px;
     }
 }
 @media (min-width:1025px){
-    .altura_tarjeta{
-        height: 770px;
-    }
     .hero__titulo{
         padding-top: 4rem;
         padding-bottom: 3rem;
         font-size: $fuente-xxxl;
+    }
+    .titulo__respo{
+        font-size: $fuente-xxl;
+        padding-top: 1.4rem;
+    }
+    .card_contenedor{
+        padding: 0px;
+    }
+    .tamano_tarjeta{
+        height: 800px;
     }
 }
