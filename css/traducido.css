@@ -142,11 +142,17 @@ h3 {
       font-size: 2em; }
   .titulo__respo {
     font-size: 2.5em;
+<<<<<<< HEAD
     padding-top: 1.5rem; }
   .card_contenedor {
     padding: 0px; }
   .tamano_tarjeta {
     height: 1095px; } }
+=======
+    padding-top: 2rem; }
+  .altura_tarjeta {
+    height: 1200px; } }
+>>>>>>> 68d1a6dbb5ddddcfe0765b23887cd8446062126d
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero {
@@ -166,6 +172,7 @@ h3 {
       padding-top: 1.6rem;
       padding-bottom: 1rem; }
   .titulo__respo {
+<<<<<<< HEAD
     font-size: 2em;
     padding-top: 1.5rem; }
   .card_contenedor {
@@ -174,6 +181,16 @@ h3 {
     height: 850px; } }
 
 @media (min-width: 1025px) {
+=======
+    font-size: 3em;
+    padding-top: 2rem; }
+  .altura_tarjeta {
+    height: 1025px; } }
+
+@media (min-width: 1025px) {
+  .altura_tarjeta {
+    height: 820px; }
+>>>>>>> 68d1a6dbb5ddddcfe0765b23887cd8446062126d
   .hero__titulo {
     padding-top: 4rem;
     padding-bottom: 3rem;
