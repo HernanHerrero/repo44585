@@ -62,11 +62,16 @@
         font-size: $fuente-lg;
         padding-top: 1.5rem;
     }
+<<<<<<< HEAD
     .card_contenedor{
         padding: 0px;
     }
     .tamano_tarjeta{
         height: 1095px;
+=======
+    .altura_tarjeta{
+        height: 1200px;
+>>>>>>> 68d1a6dbb5ddddcfe0765b23887cd8446062126d
     }
 }
 @media (min-width:769px) and (max-width: 1024px)  {
@@ -92,6 +97,7 @@
         font-size: $fuente-md;
         padding-top: 1.5rem;
     }
+<<<<<<< HEAD
     .card_contenedor{
         padding: 0px;
     }
@@ -100,6 +106,16 @@
     }
 }
 @media (min-width:1025px){
+=======
+    .altura_tarjeta{
+        height: 1025px;
+    }
+}
+@media (min-width:1025px){
+    .altura_tarjeta{
+        height: 820px;
+    }
+>>>>>>> 68d1a6dbb5ddddcfe0765b23887cd8446062126d
     .hero__titulo{
         padding-top: 4rem;
         padding-bottom: 3rem;
